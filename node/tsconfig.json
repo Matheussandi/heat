@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,
+    "strict": false, // porque estou usando typescript e não é necessário ficar mostrando variáveis que não estamos utilizando, pois o TS já irá fazer isso
+    "skipLibCheck": true,
+    "typeRoots": ["./src//@types", "node_modules/@types"]
+  }
+}
